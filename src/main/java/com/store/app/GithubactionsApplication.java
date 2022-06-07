@@ -19,7 +19,7 @@ public class GithubactionsApplication {
 	@GetMapping("/get")
 	public String exapmle()
 	{
-		return "welcome to github action";
+		return "welcome to github actions";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubactionsApplication.class, args);
